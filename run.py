@@ -14,9 +14,9 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
+@app.route("/prior_work")
+def prior_work():
+    return render_template("prior_work.html")
 
 
 @app.route("/careers")
