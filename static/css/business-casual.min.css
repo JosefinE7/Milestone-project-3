@@ -106,6 +106,7 @@ p {
 	.intro .intro-img {
 		width: 75%;
 		float: right;
+		filter: sepia(20%);
 	}
 	.intro .intro-text {
 		left: 0;
