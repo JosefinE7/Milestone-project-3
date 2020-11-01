@@ -5,39 +5,22 @@
 			<div class="col-xl-9 mx-auto">
 				<div class="cta-inner text-center rounded">
 					<h2 class="section-heading mb-5">
-						<span class="section-heading-upper">Come On In</span>
-						<span class="section-heading-lower">We're Open</span>
+						<span class="section-heading-upper">Looking for a custom fashion piece?</span>
+						<span class="section-heading-lower">Get in contact with me!</span>
 					</h2>
-					<ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Sunday
-							<span class="ml-auto">Closed</span>
-						</li>
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Monday
-							<span class="ml-auto">7:00 AM to 8:00 PM</span>
-						</li>
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Tuesday
-							<span class="ml-auto">7:00 AM to 8:00 PM</span>
-						</li>
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Wednesday
-							<span class="ml-auto">7:00 AM to 8:00 PM</span>
-						</li>
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Thursday
-							<span class="ml-auto">7:00 AM to 8:00 PM</span>
-						</li>
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Friday
-							<span class="ml-auto">7:00 AM to 8:00 PM</span>
-						</li>
-						<li class="list-unstyled-item list-hours-item d-flex">
-							Saturday
-							<span class="ml-auto">9:00 AM to 5:00 PM</span>
-						</li>
-					</ul>
+					<!--Form below copied from Rosie project-->
+					<div class="center-form">
+						<form onsubmit="return sendMail(this);">
+							<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+							<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+							<textarea name="projectsummary" id="projectsummary" rows="5" placeholder="Project description" class="form-control" required></textarea>
+							<div class="form-row text-center">
+								<div class="col mt-2">
+									<button type="submit" class="btn btn-secondary">Send Project Request</button>
+								</div>
+							</div>
+						</form>
+					</div>
 					<p class="address mb-5">
 						<em>
 							<strong>1116 Orchard Street</strong>
@@ -71,8 +54,7 @@
 					<div class="bg-faded rounded p-5">
 						<h2 class="section-heading mb-4">
 							<span class="section-heading-upper"
-								>Strong Coffee, Strong Roots</span
-							>
+								>Strong Coffee, Strong Roots</span>
 							<span class="section-heading-lower">About Our Cafe</span>
 						</h2>
 						<p>
