@@ -14,19 +14,19 @@ def about():
     return render_template("about.html")
 
 
+@app.route("/store")
+def store():
+    return render_template("store.html")
+
+
 @app.route("/prior_work")
 def prior_work():
     return render_template("prior_work.html")
 
 
-@app.route("/careers")
-def careers():
-    return render_template("careers.html")
-
-
-@app.route("/products")
-def products():
-    return render_template("products.html")
+@app.route("/contact_me")
+def contact_me():
+    return render_template("contact_me.html")
 
 
 if __name__ == "__main__":
