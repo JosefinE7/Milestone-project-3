@@ -11,7 +11,7 @@
 					</h2>
 					<!--Form below copied from Rosie project-->
 					<div class="center-form">
-						<form id="form-rest" onsubmit="return sendMail(this);">
+						<form id="form-rest" name="form" onsubmit="return sendMail(this);">
 							<input
 								type="text"
 								name="name"
@@ -38,7 +38,7 @@
 							></textarea>
 							<div class="form-row text-center">
 								<div class="col mt-2">
-									<button type="submit" class="btn btn-primary btn-xl">
+									<button type="submit" id="submit-btn" class="btn btn-primary btn-xl">
 										Send Project Request
 									</button>
 								</div>
